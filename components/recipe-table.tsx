@@ -180,7 +180,7 @@ export default function RecipeTable({ onSearchChange }: RecipeTableProps) {
       ) : recipes.length === 0 ? (
         <div className="text-center py-12 bg-gray-50 rounded-lg border border-dashed border-gray-300">
           <p className="text-gray-600 font-medium">No recipes found</p>
-          <p className="text-gray-500 text-sm mt-1">Try adjusting your filters or search criteria</p>
+          <p className="text-gray-500 text-sm mt-1">Nice to Have</p>
         </div>
       ) : (
         <>
